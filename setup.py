@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import sys, os
 
 version = '0.0'
 
@@ -8,7 +7,7 @@ setup(name='hubclient',
       description="Rest client for ULearn HUB",
       long_description="""\
 """,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      classifiers=[],  # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
       author='Carles Bruguera',
       author_email='carles.bruguera@upcnet.es',
@@ -19,6 +18,7 @@ setup(name='hubclient',
       zip_safe=True,
       install_requires=[
           # -*- Extra requirements: -*-
+          'maxclient'
       ],
       entry_points="""
       # -*- Entry points: -*-
