@@ -1,11 +1,10 @@
 CHANGELOG
 =========
 
-1.1 (unreleased)
--------------------
+1.1 (2015-05-18)
+----------------
 
-- Nothing changed yet.
-
+* Missing CHANGES.txt file [Carles Bruguera]
 
 
 
