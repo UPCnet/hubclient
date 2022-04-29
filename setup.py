@@ -18,6 +18,8 @@ setup(name='hubclient',
       zip_safe=True,
       install_requires=[
           # -*- Extra requirements: -*-
+          'setuptools',
+          'ipdb',
           'maxclient'
       ],
       entry_points="""
